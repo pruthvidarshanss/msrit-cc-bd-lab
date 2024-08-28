@@ -15,3 +15,7 @@
 ## [`Apache PIG Demo`](https://github.com/pruthvidarshanss/msrit-cc-bd-lab/tree/apache-pig-demo)
 
 > 5 different apache PIG programs with datasets.
+
+## [`Amazon Web Service`](https://github.com/pruthvidarshanss/msrit-cc-bd-lab/tree/aws)
+
+> 3 AWS questions.
