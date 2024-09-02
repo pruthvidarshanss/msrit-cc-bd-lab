@@ -1,5 +1,23 @@
 # `Apache PIG`
 
+## `Question Bank`
+
+### [`Program 1`](crop_production.md)
+
+1. Write Pig Latin scripts for crop production dataset.
+* Calculate total production of each crop.
+* Find the average production per year for each crop.
+* Filter all crops grown in ‘Andaman and Nicobar Islands’
+* Calculate the total area used for each crop in the year 2000.
+
+### [`Program 2`](olympic_data.md)
+
+2. Write Pig Latin scripts for Olympic athletes and hosts datasets.
+* Filter athletes participated in the “Beijing 2022” games.
+* Filter the games held in “China”.
+* Group games by season and count the number of games in each session.
+* Filter games that occurred after the year 2000.
+
 ## `Installation`
 
 1.	Download the new release of Apache Pig from the below [link](https://downloads.apache.org/pig/pig-0.17.0/). In my case I have downloaded the pig-0.17.0.tar.gz version of Pig which is latest and about 220MB in size. 
@@ -34,21 +52,3 @@ pig -version
 ```sh
 pig
 ```
-
-## `Question Bank`
-
-### [`Program 1`](crop_production.md)
-
-1. Write Pig Latin scripts for crop production dataset.
-* Calculate total production of each crop.
-* Find the average production per year for each crop.
-* Filter all crops grown in ‘Andaman and Nicobar Islands’
-* Calculate the total area used for each crop in the year 2000.
-
-### [`Program 2`](olympic_data.md)
-
-2. Write Pig Latin scripts for Olympic athletes and hosts datasets.
-* Filter athletes participated in the “Beijing 2022” games.
-* Filter the games held in “China”.
-* Group games by season and count the number of games in each session.
-* Filter games that occurred after the year 2000.
