@@ -1,10 +1,10 @@
-# `Spark Programs for Cloud Computing & Big Data Lab`
+# `Spark Programs`
 
 ## `Steps to Execute`
 
-1. Create your program directory and write program in <program_name>.py.
+1. Create your program directory and write program in <program_name>.py and copy the <input_file> in the same folder.
 
-2. Execute Program using below commnad
+2. Execute Program using below command and give any name for output folder.
 ```cmd
 spark-submit <program_name>.py <input_file> <output_folder_name>
 ```
