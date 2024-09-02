@@ -4,7 +4,7 @@
 
 ### [`Program 1`](crop_production.md)
 
-1. Write Pig Latin scripts for crop production dataset.
+Write Pig Latin scripts for crop production dataset.
 * Calculate total production of each crop.
 * Find the average production per year for each crop.
 * Filter all crops grown in ‘Andaman and Nicobar Islands’
@@ -12,7 +12,7 @@
 
 ### [`Program 2`](olympic_data.md)
 
-2. Write Pig Latin scripts for Olympic athletes and hosts datasets.
+Write Pig Latin scripts for Olympic athletes and hosts datasets.
 * Filter athletes participated in the “Beijing 2022” games.
 * Filter the games held in “China”.
 * Group games by season and count the number of games in each session.
