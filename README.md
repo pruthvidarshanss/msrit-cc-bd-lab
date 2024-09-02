@@ -35,22 +35,20 @@ pig -version
 pig
 ```
 
+## `Question Bank`
+
 ### [`Program 1`](crop_production.md)
 
-Crop Production Dataset with 4 different queries.
+1. Write Pig Latin scripts for crop production dataset.
+* Calculate total production of each crop.
+* Find the average production per year for each crop.
+* Filter all crops grown in ‘Andaman and Nicobar Islands’
+* Calculate the total area used for each crop in the year 2000.
 
-### [`Program 2`](exam.md)
+### [`Program 2`](olympic_data.md)
 
-Exams dataset with 3 different queries.
-
-### [`Program 3`](iris.md)
-
-Iris dataset with 3 different queries.
-
-### [`Program 4`](olympic_athletes.md)
-
-Olympic Athletes dataset with 3 different queries
-
-### [`Program 5`](olympic_hosts.md)
-
-Olympic Hosts dataset with 3 different queries
+2. Write Pig Latin scripts for Olympic athletes and hosts datasets.
+* Filter athletes participated in the “Beijing 2022” games.
+* Filter the games held in “China”.
+* Group games by season and count the number of games in each session.
+* Filter games that occurred after the year 2000.
