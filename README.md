@@ -1,4 +1,36 @@
-# `Hadoop Programs for Cloud Computing & Big Data Lab`
+# `Hadoop Programs`
+
+## `Steps to Execute`
+
+1. Create a folder <program> and move into that folder.
+
+2. Edit the driver.java, mapper.java and reducer.java files.
+
+3. Compile all java files (driver.java, mapper.java, reducer.java)
+```cmd
+javac -d . *.java
+```
+
+4. Set driver class in manifest.
+```cmd
+echo Main-Class: <program>.driver > Manifest.txt
+```
+
+5. Create an executable jar file.
+```cmd
+jar cfm <program>.jar Manifest.txt <program>/*.class
+```
+
+6. Run the jar file
+```cmd
+hadoop jar <program>.jar <input-file> output
+```
+
+7. View the Output
+```cmd
+cat output/*
+```
+
 
 ### [`Program 1`](weather/)
 
