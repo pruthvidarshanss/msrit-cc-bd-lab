@@ -8,7 +8,7 @@
 
 > 4 Different Spark python programs with datasets.
 
-## [`PIG`](https://github.com/pruthvidarshanss/msrit-cc-bd-lab/tree/apache-pig-demo)
+## [`PIG`](https://github.com/pruthvidarshanss/msrit-cc-bd-lab/tree/apache-pig)
 
 > 2 different apache PIG programs with datasets.
 
