@@ -10,11 +10,11 @@ DESCRIBE athletes;
 DESCRIBE hosts;
 ```
 
-2.	Filter athletes who participated in the "Beijing 2022" games
+2.	Filter athletes who participated in the "Tokyo 2020" games
 ```sh
-beijing_2022_athletes = FILTER athletes BY first_game == 'Beijing 2022';
+tokyo_2020_athletes = FILTER athletes BY first_game == 'Tokyo 2020';
 
-DUMP beijing_2022_athletes;
+DUMP tokyo_2020_athletes;
 ```
 
 2.	Filter the games held in "China"

@@ -25,19 +25,19 @@ average_production = FOREACH grouped_by_crop_year GENERATE group.Crop AS Crop, g
 DUMP average_production;
 ```
 
-4.	List all the crops grown in a specific state (e.g., 'Andaman and Nicobar Islands')
+4.	List all the crops grown in a specific state (e.g., 'Karantaka')
 
 ```sh
-specific_state = FILTER crop_prod BY State_Name == 'Andaman and Nicobar Islands';
+specific_state = FILTER crop_prod BY State_Name == 'Karnataka';
 
 unique_crops = GROUP specific_state BY Crop;
 
 DUMP unique_crops;
 ```
 
-5.	Calculate the total area used for each crop in a specific year (e.g., 2000)
+5.	Calculate the total area used for each crop in a specific year (e.g., 2010)
 ```sh
-specific_year = FILTER crop_prod BY Crop_Year == 2000;
+specific_year = FILTER crop_prod BY Crop_Year == 2010;
 
 total_area = GROUP specific_year BY Crop;
 
