@@ -19,3 +19,9 @@ Write a python script to start, stop and reboot AWS EC2 instances using Boto3.
 [`Question 3`](s3.py)
 
 Write a python script to upload any sample file to AWS S3 bucket using Boto3.
+
+[`Question 4`](dynamoDB.py)
+
+Write a Python script to add data items to AWS DynamoDB using Boto3.
+
+![Image](dynamo.png)
