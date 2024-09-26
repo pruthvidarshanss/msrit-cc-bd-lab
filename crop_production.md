@@ -25,7 +25,7 @@ average_production = FOREACH grouped_by_crop_year GENERATE group.Crop AS Crop, g
 DUMP average_production;
 ```
 
-4.	List all the crops grown in a specific state (e.g., 'Karantaka')
+4.	List all the crops grown in a specific state (e.g., 'Karnataka')
 
 ```sh
 specific_state = FILTER crop_prod BY State_Name == 'Karnataka';

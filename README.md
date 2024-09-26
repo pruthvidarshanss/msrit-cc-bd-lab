@@ -7,13 +7,13 @@
 Write Pig Latin scripts for crop production dataset.
 * Calculate total production of each crop.
 * Find the average production per year for each crop.
-* Filter all crops grown in ‘Andaman and Nicobar Islands’
-* Calculate the total area used for each crop in the year 2000.
+* Filter all crops grown in 'Karnataka'
+* Calculate the total area used for each crop in the year 2010.
 
 ### [`Program 2`](olympic_data.md)
 
 Write Pig Latin scripts for Olympic athletes and hosts datasets.
-* Filter athletes participated in the “Beijing 2022” games.
+* Filter athletes participated in the “Tokyo 2020” games.
 * Filter the games held in “China”.
 * Group games by season and count the number of games in each session.
 * Filter games that occurred after the year 2000.
